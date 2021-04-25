@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <title> beside you </title>
+  <meta charset="utf-8">
+  <style>
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:50px;
+      text-align: center;
+      border-bottom: green 3px solid;
+    }
+
+    #grid{
+      display:grid;
+      grid-template-columns: 150px 1fr;
+
+    }
+
+    #grid ol{
+      border-right:2px green solid;
+      width:100px;
+    }
+    #energy{
+      padding-left: 10px;
+    }
+
+    @media(max-width:800px){
+      #grid ol{
+        border-right:none;
+      }
+      #grid{
+        display:block ;
+
+      }
+
+    }
+
+
+      </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1QC7MHPQG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-J1QC7MHPQG');
+  </script>
+</head>
+<body>
+  <h1><a href="index.html">home</a></h1>
+  <div id="grid">
+    <ol>
+        <h2>
+        <li><a href="1space.html">space</a></li>
+        <li><a href="2mind.html">mind</a></li>
+        <li><a href="3energy.html" style="color:green"><u>energy</u></a></li>
+        <li><a href="4relation.html">relation</a></li>
+      </h2>
+    </ol>
+
+    <div id="energy">
+      <h2>energy_</h2>
+      <p>
+      에너지(영어: energy, 문화어: 에네르기, 독일어: energie)는 물리학에서 일을 할 수 있는 능력을 뜻한다. 이에 크게 벗어나지 않게, 일반적으로 '석유 에너지', '원자력 에너지'와 같이 '에너지원'이라는 뜻으로도 쓰인다.
+     <img src="paper.jpg" width=100%/>
+     </p>
+   </div>
+ </div>
+
+    </body>
+  </html>
